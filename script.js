@@ -49,7 +49,7 @@ tl.from(".right_center h2", {
 
 tl.from(".right_center h1", {
     x: 200,
-    duration: 0.8,
+    duration: 0.7,
     delay: 0.5,
     stagger: 1,
     opacity: 0
