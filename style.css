@@ -1,0 +1,767 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#page1 {
+    width: 100%;
+    /* height: 750px; */
+    background-color: #FDF0E6;
+    overflow: hidden;
+}
+
+.page1_nav {
+    width: 100%;
+    height: 100px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav1 {
+    width: 50%;
+    height: 100px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    word-spacing: 5px;
+    cursor: pointer;
+    margin-left: 40px;
+
+}
+
+.nav1 h1:hover {
+    color: #f97864;
+    scale: 1.2;
+    transition: 0.5s;
+}
+
+
+.nav2 {
+    width: 40%;
+    height: 100px;
+    /* background-color: rgb(0, 255, 42); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 30px; */
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav2 p span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav2 i:hover {
+    color: #f97864;
+    /* color: cornflowerblue; */
+}
+
+.center {
+    width: 100%;
+    height: 750px;
+    /* background-color: blue; */
+    display: flex;
+    position: relative;
+
+}
+
+.left {
+    width: 50%;
+    height: 700px;
+    background-color: aquamarine;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/624b503d454ebf5dd68421e1/1649102922462-6S7PM50MIK8KNCSKX134/download-copy%252Bcopy%252B2.jpg?format=1500w);
+    background-position: center;
+    filter: grayscale(1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 60px;
+    position: relative;
+    transition: all ease .3s;
+    zoom: 0;
+}
+
+.left:hover {
+    filter: grayscale(0);
+    background-position: top;
+}
+
+.right {
+    width: 50%;
+    height: 600px;
+    /* background-color: rgb(26, 66, 53); */
+    position: relative;
+}
+
+.right_center {
+    width: 90%;
+    height: 500px;
+    /* background-color: blue; */
+    margin-top: 150px;
+    margin-left: 100px;
+    /* align-items: center; */
+}
+
+.right_center h2 {
+    font-size: 30px;
+    /* font-family:  thin gilroy; */
+    font-weight: 500;
+
+}
+
+.right_center h1 {
+    font-size: 40px;
+    padding-top: 30px;
+    /* font-family:  alkatra; */
+    font-weight: 500;
+    line-height: 50px;
+    white-space: 5px;
+    font-family: Helvetica, sans-serif;
+}
+
+#page2 {
+    width: 100%;
+    /* height: 500px; */
+    background-color: white;
+}
+
+.page2_heading {
+    width: 50%;
+    height: 200px;
+    /* background-color: rgb(215, 217, 250); */
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.page2_heading h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #F08E80;
+
+}
+
+.page2_heading p {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.page2_center {
+    width: 95%;
+    /* height: 500px; */
+    /* background-color: #F08E80; */
+    margin-left: 3%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.box1 {
+    width: 420px;
+    height: 700px;
+    /* background-color: blue; */
+}
+
+.box1 h3 {
+    padding-top: 20px;
+}
+
+.box1 h2 {
+    padding-top: 20px;
+    color: #F19385;
+    font-size: 30px;
+    color: #f97864;
+}
+
+.box1 p {
+    padding-top: 20px;
+    font-size: 17px;
+    padding-top: 25px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.833);
+}
+
+.box1 h4 {
+    padding-top: 20px;
+    color: #f37d6b;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #f97864;
+    cursor: pointer;
+
+}
+
+.box1center {
+    width: 420px;
+    height: 500px;
+    background-color: aliceblue;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/624b503d454ebf5dd68421e1/1649102921904-6XL5VQV5TYRUZ2NOM3TU/download+%284%29.jpeg?format=1000w);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box2 {
+    width: 420px;
+    height: 500px;
+    /* background-color: rgb(255, 0, 51); */
+
+}
+
+.box2 h3 {
+    padding-top: 20px;
+}
+
+.box2 h2 {
+    padding-top: 20px;
+    color: #F19385;
+    font-size: 30px;
+    color: #f97864;
+}
+
+.box2 p {
+    padding-top: 20px;
+    font-size: 17px;
+    padding-top: 25px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.833);
+}
+
+.box2 h4 {
+    padding-top: 20px;
+    color: #F19385;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #f97864;
+    cursor: pointer;
+}
+
+.box2center {
+    width: 420px;
+    height: 300px;
+    /* background-color: aliceblue; */
+    background-image: url(https://images.squarespace-cdn.com/content/v1/624b503d454ebf5dd68421e1/1649102921970-ZP81D7BGL06QD828LAMT/download+%283%29.jpeg?format=1000w);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box3 {
+    width: 420px;
+    height: 800px;
+    /* background-color: rgb(255, 0, 106); */
+}
+
+.box3 h3 {
+    padding-top: 20px;
+}
+
+.box3 h2 {
+    padding-top: 20px;
+    color: #F19385;
+    font-size: 30px;
+    color: #f97864;
+}
+
+.box3 p {
+    padding-top: 20px;
+    font-size: 17px;
+    padding-top: 25px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.833);
+}
+
+.box3 h4 {
+    padding-top: 20px;
+    color: #F19385;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #f97864;
+    cursor: pointer;
+
+}
+
+.box3center {
+    width: 420px;
+    height: 600px;
+    background-color: aliceblue;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/624b503d454ebf5dd68421e1/1649102921944-LWUB703AFLTK0KJCH2RC/download+%281%29.jpeg?format=1000w);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second_row {
+    width: 95%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 3%;
+
+}
+
+.box4 {
+    width: 420px;
+    height: 800px;
+    /* background-color: bisque; */
+}
+
+.box4 h3 {
+    padding-top: 20px;
+}
+
+.box4 h2 {
+    padding-top: 20px;
+    color: #F19385;
+    font-size: 30px;
+    color: #f97864;
+}
+
+.box4 p {
+    padding-top: 20px;
+    font-size: 17px;
+    padding-top: 25px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.833);
+}
+
+.box4 h4 {
+    padding-top: 20px;
+    color: #F19385;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #f97864;
+    cursor: pointer;
+
+}
+
+.box4_center {
+    width: 420px;
+    height: 600px;
+    background-color: rgb(205, 255, 196);
+    background-image: url(https://images.squarespace-cdn.com/content/v1/624b503d454ebf5dd68421e1/1649102921920-DNZT5VO5HX8TYY5UY57J/Large+JPG-cucumber+tomato+salad06.jpg?format=1000w);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box5 {
+    width: 420px;
+    height: 800px;
+    /* background-color: bisque; */
+    margin-top: -200px;
+}
+
+.box5 h3 {
+    padding-top: 20px;
+}
+
+.box5 h2 {
+    padding-top: 20px;
+    color: #F19385;
+    font-size: 30px;
+    color: #f97864;
+}
+
+.box5 p {
+    padding-top: 20px;
+    font-size: 17px;
+    padding-top: 25px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.833);
+}
+
+.box5 h4 {
+    padding-top: 20px;
+    color: #F19385;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #f97864;
+    cursor: pointer;
+
+}
+
+.box5_center {
+    width: 420px;
+    height: 600px;
+    background-color: rgb(205, 255, 196);
+    background-image: url(https://images.squarespace-cdn.com/content/v1/624b503d454ebf5dd68421e1/1649102922002-P1FYDGOPWFUCOWJUYXIU/download+%285%29.jpeg?format=1000w);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box6 {
+    width: 420px;
+    height: 800px;
+    /* background-color: bisque; */
+    margin-top: 70px;
+}
+
+.box6 h3 {
+    padding-top: 20px;
+}
+
+.box6 h2 {
+    padding-top: 20px;
+    color: #f97864;
+    font-size: 30px;
+}
+
+.box6 p {
+    padding-top: 25px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.833);
+}
+
+.box6 h4 {
+    padding-top: 25px;
+    cursor: pointer;
+
+    color: #ef7664;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.box6_center {
+    width: 420px;
+    height: 600px;
+    background-color: rgb(205, 255, 196);
+    background-image: url(https://images.squarespace-cdn.com/content/v1/624b503d454ebf5dd68421e1/1649102921879-ABEH95L2MLHHMD5XLML6/Large+JPG-blueberry+sour+cream+swirl11.jpg?format=1000w);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#third_row {
+
+    width: 95%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 3%;
+
+}
+
+
+.box7 {
+    width: 420px;
+    height: 800px;
+    /* background-color: bisque; */
+    margin-top: 159px;
+}
+
+
+.box7 h3 {
+    padding-top: 20px;
+}
+
+.box7 h2 {
+    padding-top: 20px;
+    color: #f97864;
+    font-size: 30px;
+}
+
+.box7 p {
+    padding-top: 25px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.833);
+}
+
+.box7 h4 {
+    padding-top: 25px;
+    color: #ef7664;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.box7_center {
+    width: 420px;
+    height: 600px;
+    background-color: rgb(205, 255, 196);
+    background-image: url(https://images.squarespace-cdn.com/content/v1/624b503d454ebf5dd68421e1/1649102921838-6H9IIX9MNHM59B77HVFP/apple-waffles13-copy.jpg?format=1000w);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box8 {
+    width: 420px;
+    height: 800px;
+    /* background-color: bisque; */
+}
+
+
+.box8 h3 {
+    padding-top: 20px;
+}
+
+.box8 h2 {
+    padding-top: 20px;
+    color: #f97864;
+    font-size: 30px;
+}
+
+.box8 p {
+    padding-top: 25px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.833);
+}
+
+.box8 h4 {
+    padding-top: 25px;
+    color: #ef7664;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.box8_center {
+    width: 420px;
+    height: 600px;
+    background-color: rgb(205, 255, 196);
+    background-image: url(https://images.squarespace-cdn.com/content/v1/624b503d454ebf5dd68421e1/1649102921861-DF00F7GKB5H16VSBA6FU/Large+JPG-bloody+maria+cocktails24.jpg?format=1000w);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box9 {
+    width: 420px;
+    height: 800px;
+    /* background-color: bisque; */
+    margin-top: 238px;
+}
+
+.box9 h3 {
+    padding-top: 20px;
+}
+
+.box9 h2 {
+    padding-top: 20px;
+    color: #f97864;
+    font-size: 30px;
+}
+
+.box9 p {
+    padding-top: 25px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.833);
+}
+
+.box9 h4 {
+    padding-top: 25px;
+    color: #ef7664;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+
+.box9_center {
+    width: 420px;
+    height: 600px;
+    background-color: rgb(205, 255, 196);
+    background-image: url(https://images.squarespace-cdn.com/content/v1/624b503d454ebf5dd68421e1/1649102921824-JWVF0LD97ZGZL53BHAI8/Large+JPG-asian+pear+and+apple+pie19.jpg?format=1000w);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#page3 {
+    width: 100%;
+    height: 820px;
+    /* margin-left: 3%; */
+    margin-top: 398px;
+    background-color: #FDF0E6;
+    display: flex;
+}
+
+.page3_left {
+    width: 50%;
+    height: 700px;
+    background-color: #E0CEC0;
+    margin-top: 65px;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/624b503d454ebf5dd68421e1/1649102922468-9NTPMK441ZGJD163LNIB/stanton-book.jpg?format=1500w);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.page3_right {
+    width: 50%;
+    /* height: 700px; */
+    background-color: #FDF0E6;
+    /* margin-left: 20px; */
+}
+
+.page3_rightcenter {
+    width: 600px;
+    height: 400px;
+    /* background-color: #f37d6b; */
+    margin-top: 250px;
+    margin-left: 120px;
+}
+
+.page3_rightcenter h1 {
+    /* text-align: center; */
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page3_rightcenter p {
+    padding-top: 40px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.859);
+    word-spacing: 3px;
+    line-height: 25px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.page3_rightcenter button {
+    margin-top: 60px;
+    padding: 25px 70px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #F08E80;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.page3_rightcenter button:hover {
+    background-color: rgb(194, 236, 55);
+    color: rgba(0, 0, 0, 0.856);
+    transition: 0.5s;
+}
+
+#page4 {
+
+    width: 100%;
+    height: 800px;
+    background-color: #FDF0E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.page4_box {
+    width: 90%;
+    height: 650px;
+    background-color: #f97864;
+    /* margin-top: 30px; */
+    margin-left: 81px;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/624b503d454ebf5dd68421e1/1649102922476-N77TLCATRIQPUXSPSWP4/charred-corn-salad-with-creamy-lime-dressing12.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page4_center {
+    width: 600px;
+    height: 300px;
+    background-color: transparent;
+    border: 2px solid red;
+    margin-top: 20px;
+    margin-left: 30px;
+
+
+}
+
+.page4_center h1 {
+
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+
+
+}
+
+.page4_center p {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.page4_center input {
+    margin-top: 40px;
+    padding: 20px 40px;
+    margin-left: 80px;
+    border: none;
+}
+
+.page4_center button {
+    padding: 19px 40px;
+    font-size: 15px;
+    background-color: #f97864;
+    border: none;
+    cursor: pointer;
+    color: white;
+
+}
+
+.page4_center button:hover {
+    background-color: rgb(194, 236, 55);
+    transition: 0.5s;
+}
+
+.cursor {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    transition: linear all ease 0.2s;
+    mix-blend-mode: difference;
+}
+
+.curso {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    transition: linear all ease 0.2s;
+    mix-blend-mode: difference;
+}
+
+
